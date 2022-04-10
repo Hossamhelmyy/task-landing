@@ -1,0 +1,723 @@
+/* main color #233155 */
+
+
+/* global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+/* nav */
+
+nav {
+    background: #529371;
+    background: -webkit-linear-gradient( to right, #233155, #39224d);
+    background: -moz-linear-gradient( to right, #233155, #39224d);
+    background: linear-gradient(to right, #233155, #39224d);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 12rem;
+    align-items: center;
+    border-top: 0.1rem solid #cccccc;
+    border-bottom: 0.1rem solid #cccccc;
+    flex-wrap: wrap;
+}
+
+nav .logo img {
+    width: 19.5rem;
+    height: 3.6rem;
+}
+
+nav .links {
+    padding-left: 12rem;
+}
+
+nav .links .link {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-right: 2.2rem;
+    font-family: "MetropolisRegular";
+}
+
+nav .buttons {
+    display: flex;
+}
+
+.button {
+    margin-right: 1.4rem;
+    border: none;
+    width: 7.8rem;
+    height: 4rem;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+    font-family: "MetropolisRegular";
+    background-color: #fff;
+    color: #23d4ce;
+    transition: all 0.4s ease-in-out;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #23d4ce;
+}
+
+nav .buttons .lang {
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+nav .buttons .lang span {
+    margin-left: 0.3rem;
+    font-size: 1.4rem;
+    font-family: "MetropolisRegular";
+    font-weight: 700;
+    color: #ffff;
+}
+
+nav .buttons .lang .world-wide {
+    width: 2.9rem;
+    height: 2.9rem;
+    cursor: pointer;
+}
+
+.landing {
+    background-image: url("/images/Web_Photo_Editor\ \(1\).jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+
+.landing .desc {
+    position: absolute;
+    top: 12rem;
+    left: 12.5rem;
+    font-family: "MetropolisRegular";
+    color: #fff;
+}
+
+.landing .desc span {
+    color: #23d4ce;
+}
+
+.landing .desc h1 {
+    font-size: 4.9rem;
+    font-weight: 700;
+    width: 47.2rem;
+    line-height: 6rem;
+}
+
+.landing .desc p {
+    width: 53.4rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3.36rem;
+    text-align: justify;
+    margin-top: 1.8rem;
+}
+
+.landing-button {
+    margin-top: 1.4rem;
+    width: 10.8rem;
+    height: 3.4rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
+    font-family: "MetropolisRegular";
+    background-color: #fff;
+    color: #23d4ce;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.landing-button:hover {
+    color: #fff;
+    background-color: #23d4ce;
+}
+
+.landing .image {
+    position: absolute;
+    top: 8rem;
+    left: 93.4rem;
+}
+
+.landing .image img {
+    width: 23.9rem;
+    height: 49.9rem;
+}
+
+
+/* brands */
+
+.brands {
+    display: flex;
+    grid-column-gap: 6rem;
+    height: 280px;
+    grid-row-gap: 2rem;
+    padding: 0 12rem;
+    margin-top: -40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brands img {
+    width: 15rem;
+    height: 6.7rem;
+}
+
+
+/* features */
+
+.features {
+    background-color: #f7f7f7;
+    min-height: 80vh;
+    padding: 2rem 8rem;
+    font-family: "MetropolisRegular";
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-gap: 1.8rem;
+    grid-row-gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.title {
+    padding: 60px 0;
+}
+
+.title h2 {
+    font-size: 3.6rem;
+    text-align: center;
+    font-family: "MetropolisRegular";
+}
+
+.title span {
+    border-bottom: 4px solid #23d4ce;
+    padding-bottom: 10px;
+}
+
+.features .feature {
+    width: 282px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0.4px rgba(0, 0, 0, 0.2);
+    grid-row-gap: 42px;
+    transition: all 0.3s ease-in-out;
+}
+
+.features .feature:hover {
+    background-color: rgba(80, 217, 215, 0.2);
+}
+
+.features .feature .laptop {
+    width: 63px;
+    height: 50px;
+}
+
+.features .feature .mobile {
+    width: 40px;
+    height: 64px;
+}
+
+.features .feature .message {
+    width: 60px;
+    height: 60px;
+}
+
+.features .feature .time {
+    width: 61px;
+    height: 64px;
+}
+
+.features .feature h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.features .feature p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    width: 290px;
+}
+
+
+/* testimonials */
+
+.testimonials {
+    font-family: "MetropolisRegular";
+    background-color: rgba(255, 255, 255, 1);
+    height: auto;
+    padding: 3rem 6rem;
+}
+
+.testimonials .map .img {
+    position: relative;
+    max-width: 140rem;
+    max-height: 60rem;
+    background-image: url("/images/Group.png");
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.testimonials .title p {
+    text-align: center;
+    padding-top: 40px;
+    color: rgba(85, 101, 117, 1);
+    font-size: 2rem;
+}
+
+.profile {
+    position: relative;
+    cursor: pointer;
+}
+
+.rate {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: -92px;
+}
+
+.rate img {
+    width: 26rem;
+    height: 14rem;
+}
+
+.show {
+    display: block;
+}
+
+.sam {
+    position: absolute;
+    top: 7.6rem;
+    left: 17rem;
+}
+
+.adam {
+    position: absolute;
+    top: 37.6rem;
+    left: 24.6rem;
+}
+
+.samy {
+    position: absolute;
+    top: 23.6rem;
+    left: 52rem;
+}
+
+.adel {
+    position: absolute;
+    top: 8.6rem;
+    left: 68rem;
+}
+
+.john {
+    position: absolute;
+    top: 23rem;
+    right: 24rem;
+}
+
+.toni {
+    position: absolute;
+    bottom: 10.4rem;
+    right: 15.6rem;
+}
+
+.testimonials .map .img-profile {
+    width: 70px;
+    height: 70px;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 1115px) {
+    html {
+        font-size: 50%;
+    }
+    nav {
+        padding: 1.6rem 3rem;
+    }
+    nav .links {
+        padding-left: 1rem;
+    }
+    .landing .image img {
+        width: 80%;
+        height: 46rem;
+    }
+    .testimonials .map .img-profile {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    html {
+        font-size: 42%;
+    }
+    nav {
+        padding: 1.8rem 2rem;
+    }
+    nav .links {
+        padding-left: 0.5rem;
+    }
+    .landing .image img {
+        width: 18rem;
+        height: 43rem;
+    }
+    .testimonials .map .img {
+        max-width: 124rem;
+    }
+    .sam {
+        position: absolute;
+        left: 126px;
+    }
+    .adam {
+        position: absolute;
+        top: 38rem;
+        left: 22.6rem;
+    }
+    .samy {
+        position: absolute;
+        top: 25.5rem;
+        left: 52rem;
+    }
+    .adel {
+        position: absolute;
+        top: 8.6rem;
+        left: 68rem;
+    }
+    .john {
+        position: absolute;
+        top: 18rem;
+        right: 15.5rem;
+    }
+    .toni {
+        position: absolute;
+        bottom: 17.4rem;
+        right: 6.6rem;
+    }
+    .testimonials .map .img-profile {
+        width: 55px;
+        height: 55px;
+    }
+    .rate {
+        top: 55px;
+        left: -55px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    html {
+        font-size: 38%;
+    }
+    nav {
+        padding: 1.6rem 1.5rem;
+    }
+    nav .links {
+        padding-left: 0rem;
+    }
+    .landing {
+        flex-direction: column;
+    }
+    .landing .desc {
+        left: 26vw;
+    }
+    .landing .image {
+        position: absolute;
+        top: 48rem;
+        left: 40%;
+    }
+    .landing .image img {
+        width: 15rem;
+        height: 36rem;
+    }
+    .sam {
+        position: absolute;
+        left: 10.8rem;
+    }
+    .adam {
+        position: absolute;
+        top: 25rem;
+        left: 16.6rem;
+    }
+    .samy {
+        position: absolute;
+        top: 18.5rem;
+        left: 40rem;
+    }
+    .adel {
+        position: absolute;
+        top: 7.6rem;
+        left: 53rem;
+    }
+    .john {
+        position: absolute;
+        top: 18rem;
+        right: 15.5rem;
+    }
+    .toni {
+        position: absolute;
+        bottom: 21.4rem;
+        right: 6.6rem;
+    }
+    .testimonials .map .img-profile {
+        width: 50px;
+        height: 50px;
+    }
+    .title h2 {
+        font-size: 6.6rem;
+    }
+    .testimonials .title p {
+        font-size: 4rem;
+    }
+    .rate {
+        top: 50px;
+        left: -34px;
+    }
+    .rate img {
+        width: 20rem;
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 35%;
+    }
+    nav {
+        padding: 1.6rem 1.5rem;
+        flex-direction: column;
+    }
+    nav .links {
+        padding-left: 0rem;
+    }
+    nav>*:not(nav>*:nth-last-child(1)) {
+        padding-bottom: 2rem;
+    }
+    nav .links .link {
+        font-size: 1.9rem;
+    }
+    nav .logo img {
+        width: 22.5rem;
+        height: 4.6rem;
+    }
+    nav .buttons .button {
+        width: 8.8rem;
+        height: 5.4rem;
+        font-size: 1.9rem;
+    }
+    nav .buttons .lang span {
+        font-size: 1.9rem;
+    }
+    nav .buttons .lang .world-wide {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .landing {
+        flex-direction: column;
+    }
+    .landing .desc {
+        left: 24vw;
+        top: 28rem;
+    }
+    .landing .image {
+        display: none;
+    }
+    .landing .image img {
+        width: 15rem;
+        height: 36rem;
+    }
+    .features .container {
+        justify-content: center;
+        align-items: center;
+    }
+    .sam {
+        position: absolute;
+        left: 10.8rem;
+    }
+    .adam {
+        position: absolute;
+        top: 22rem;
+        left: 14.6rem;
+    }
+    .samy {
+        position: absolute;
+        top: 12.5rem;
+        left: 33rem;
+    }
+    .adel {
+        position: absolute;
+        top: 5rem;
+        left: 47rem;
+    }
+    .john {
+        position: absolute;
+        top: 18rem;
+        right: 10rem;
+    }
+    .toni {
+        position: absolute;
+        bottom: 25.4rem;
+        right: 6rem;
+    }
+    .testimonials .map .img-profile {
+        width: 40px;
+        height: 40px;
+    }
+    .testimonials .map .img {
+        height: 400px;
+    }
+    .landing-button {
+        margin-top: 22px;
+        width: 15rem;
+        height: 4rem;
+    }
+    .rate {
+        top: 40px;
+        left: -34px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 30%;
+    }
+    nav .links .link {
+        font-size: 2.2rem;
+    }
+    nav .logo img {
+        width: 24rem;
+        height: 5rem;
+    }
+    nav .buttons .button {
+        width: 9.2rem;
+        height: 6rem;
+        font-size: 2.2rem;
+    }
+    nav .buttons .lang span {
+        font-size: 2.2rem;
+    }
+    nav .buttons .lang .world-wide {
+        width: 4rem;
+        height: 4rem;
+    }
+    .landing .desc {
+        left: 22vw;
+        top: 34rem;
+    }
+    .sam {
+        position: absolute;
+        left: 7.8rem;
+    }
+    .adam {
+        position: absolute;
+        top: 22rem;
+        left: 14.6rem;
+    }
+    .samy {
+        position: absolute;
+        top: 12.5rem;
+        left: 33rem;
+    }
+    .adel {
+        position: absolute;
+        top: 5rem;
+        left: 47rem;
+    }
+    .john {
+        position: absolute;
+        top: 18rem;
+        right: 10rem;
+    }
+    .toni {
+        position: absolute;
+        bottom: 25.4rem;
+        right: 6rem;
+    }
+    .testimonials .map .img-profile {
+        width: 30px;
+        height: 30px;
+    }
+    .rate {
+        top: 30px;
+        left: -32px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    html {
+        font-size: 26%;
+    }
+    .landing .desc {
+        left: 20vw;
+        top: 40rem;
+    }
+    .sam {
+        position: absolute;
+        left: 7.8rem;
+    }
+    .adam {
+        position: absolute;
+        top: 22rem;
+        left: 14.6rem;
+    }
+    .samy {
+        position: absolute;
+        top: 12.5rem;
+        left: 33rem;
+    }
+    .adel {
+        position: absolute;
+        top: 5rem;
+        left: 47rem;
+    }
+    .john {
+        position: absolute;
+        top: 18rem;
+        right: 10rem;
+    }
+    .toni {
+        position: absolute;
+        bottom: 27.4rem;
+        right: 6rem;
+    }
+    .testimonials .map .img-profile {
+        width: 26px;
+        height: 26px;
+    }
+    .rate {
+        top: 25px;
+        left: -26px;
+    }
+}
